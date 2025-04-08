@@ -1,0 +1,16 @@
+# robots.txt for Nylon Gaming Server Hosting
+
+User-agent: *
+Allow: /
+
+# Disallow authentication and admin pages
+Disallow: /auth/
+Disallow: /admin/
+Disallow: /dashboard/
+
+# Disallow any API routes
+Disallow: /api/
+
+# Sitemap location
+Sitemap: https://nylongaming.vercel.app/sitemap.xml
+
